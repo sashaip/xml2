@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="InternetMagazin">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Clients">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Client">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string"></xs:element>
+                                        <xs:element name="age" type="xs:int"></xs:element>
+                                        <xs:element name="gender" type="xs:string"></xs:element>
+                                        <xs:element name="desired" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:ID" use="required"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Client">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string"></xs:element>
+                                        <xs:element name="age" type="xs:int"></xs:element>
+                                        <xs:element name="gender" type="xs:string"></xs:element>
+                                        <xs:element name="desired" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:ID" use="required"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Client">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string"></xs:element>
+                                        <xs:element name="age" type="xs:int"></xs:element>
+                                        <xs:element name="gender" type="xs:string"></xs:element>
+                                        <xs:element name="desired" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:ID" use="required"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Client">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string"></xs:element>
+                                        <xs:element name="age" type="xs:int"></xs:element>
+                                        <xs:element name="gender" type="xs:string"></xs:element>
+                                        <xs:element name="desired" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:ID" use="required"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Client">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string"></xs:element>
+                                        <xs:element name="age" type="xs:int"></xs:element>
+                                        <xs:element name="gender" type="xs:string"></xs:element>
+                                        <xs:element name="desired" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:ID" use="required"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Client">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string"></xs:element>
+                                        <xs:element name="age" type="xs:int"></xs:element>
+                                        <xs:element name="gender" type="xs:string"></xs:element>
+                                        <xs:element name="desired" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:ID" use="required"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Client">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string"></xs:element>
+                                        <xs:element name="age" type="xs:int"></xs:element>
+                                        <xs:element name="gender" type="xs:string"></xs:element>
+                                        <xs:element name="desired" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:ID" use="required"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Client">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string"></xs:element>
+                                        <xs:element name="age" type="xs:int"></xs:element>
+                                        <xs:element name="gender" type="xs:string"></xs:element>
+                                        <xs:element name="desired" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:ID" use="required"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Client">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string"></xs:element>
+                                        <xs:element name="age" type="xs:int"></xs:element>
+                                        <xs:element name="gender" type="xs:string"></xs:element>
+                                        <xs:element name="desired" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:ID" use="required"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Entitys">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Entity">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="type" type="xs:string"></xs:element>
+                                        <xs:element name="name" type="xs:string"></xs:element>
+                                        <xs:element name="price" type="xs:string"></xs:element>
+                                        <xs:element name="category" type="xs:string"></xs:element>
+                                        <xs:element name="image" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:ID" use="required"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Entity">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="type" type="xs:string"></xs:element>
+                                        <xs:element name="name" type="xs:string"></xs:element>
+                                        <xs:element name="price" type="xs:string"></xs:element>
+                                        <xs:element name="category" type="xs:string"></xs:element>
+                                        <xs:element name="image" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:ID" use="required"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Entity">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="type" type="xs:string"></xs:element>
+                                        <xs:element name="name" type="xs:string"></xs:element>
+                                        <xs:element name="price" type="xs:string"></xs:element>
+                                        <xs:element name="category" type="xs:string"></xs:element>
+                                        <xs:element name="image" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:ID" use="required"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Discount">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Categories">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Entitys">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Entity">
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="id" type="xs:ID" use="required"></xs:attribute>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Entitys1">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Entity"></xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Services">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Service">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Repair">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Phone">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="model" type="xs:string"></xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="TV" type="xs:string"></xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="Clear" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="PromoCode">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="promocodes" type="xs:string"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
